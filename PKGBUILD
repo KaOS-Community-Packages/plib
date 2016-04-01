@@ -7,7 +7,6 @@ url="http://plib.sourceforge.net/"
 license=('custom:LGPL')
 makedepends=('libgl' 'libxi' 'libxmu')
 source=("http://plib.sourceforge.net/dist/${pkgname}-${pkgver}.tar.gz")
-options=('staticlibs')
 md5sums=('47a6fbf63668c1eed631024038b2ea90')
 
 build() {
